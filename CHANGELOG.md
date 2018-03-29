@@ -15,4 +15,4 @@
     Wget 1.19.4
 - Addign CHANGELOG based on https://raw.githubusercontent.com/olivierlacan/keep-a-changelog/master/CHANGELOG.md  
 
-[Unreleased]: https://github.com/attila123/alpine-docker-compose/v1.0.1...HEAD
+[Unreleased]: https://github.com/attila123/alpine-docker-compose/compare/v1.0.1...HEAD
