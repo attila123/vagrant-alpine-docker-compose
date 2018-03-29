@@ -28,5 +28,8 @@ Vagrant.configure("2") do |config|
     chmod +x /vagrant/scripts/install-docker-compose.sh
     /vagrant/scripts/install-docker-compose.sh
     apk add bash-completion
+    # 'shadow' is needed for 'usermod'
+    apk add shadow
+    usermod -a -G docker vagrant
   SHELL
 end

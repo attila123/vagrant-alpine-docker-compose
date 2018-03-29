@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- User 'vagrant' is now added to the group 'docker' (fixes permission problem with docker commands)
 
 ## 1.0.1 - 2018-03-29
 ### Added
